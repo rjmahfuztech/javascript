@@ -6,7 +6,7 @@ function kilometerToMeter(kilometer){
     let meter = 1000 * kilometer;
     return meter;
 }
-let result = kilometerToMeter(20);
+let result = kilometerToMeter(25);
 console.log(result);
 
   
@@ -17,8 +17,7 @@ function budgetCalculator(watch, phone, laptop){
     let allPrice = watch * 50 + phone * 100 + laptop * 500;
     return allPrice;
 }
-
-let total = budgetCalculator(4, 5, 4);
+let total = budgetCalculator(4, 5, 2);
 console.log(total);
 
 
@@ -47,3 +46,20 @@ function hotelCost(rent) {
 }
 let totalRent = hotelCost(50);
 console.log(totalRent);
+
+
+
+// Solved to the problem number:- 4
+
+function megaFriend(names){
+    let longestName = '';
+    names.map(function(string){
+        if(string.length > longestName.length){
+            longestName = string;
+        }
+    })
+    return longestName;
+}
+let friendsName = megaFriend(['Nur Alam', 'Mahfuz Islam', 'Zahid Hasan', 'Jubair Ahmed']);
+console.log(friendsName);
+
