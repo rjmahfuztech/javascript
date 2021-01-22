@@ -1,24 +1,27 @@
+// https://github.com/rjmahfuztech/javascript
 
 
 // Solved to the problem number:- 1
 
-function kilometerToMeter(kilometer){
+function kilometerToMeter(kilometer) {
     let meter = 1000 * kilometer;
     return meter;
 }
 let result = kilometerToMeter(25);
 console.log(result);
 
-  
+
+
 
 // Solved to the problem number:- 2
 
-function budgetCalculator(watch, phone, laptop){
+function budgetCalculator(watch, phone, laptop) {
     let allPrice = watch * 50 + phone * 100 + laptop * 500;
     return allPrice;
 }
 let total = budgetCalculator(4, 5, 2);
 console.log(total);
+
 
 
 
@@ -49,12 +52,13 @@ console.log(totalRent);
 
 
 
+
 // Solved to the problem number:- 4
 
-function megaFriend(names){
+function megaFriend(names) {
     let longestName = '';
-    names.map(function(string){
-        if(string.length > longestName.length){
+    names.map(function (string) {
+        if (string.length > longestName.length) {
             longestName = string;
         }
     })
