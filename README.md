@@ -1,3 +1,3 @@
 # javascript
 
-## 4 JavaScript question and answer.
+## 4 JavaScript problem and solution.
